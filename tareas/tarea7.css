@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(118, 204, 178);
+}
+
+h1{
+    text-align: center;
+    color: rgb(255, 252, 240);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 2%;
+}
+
+.fila1{
+    display: flex;
+    flex-flow: row wrap;    
+    justify-content: center;
+    margin-top: 6%;
+}
+
+.fila2{
+    display: flex;
+    flex-flow: row wrap;  
+    justify-content: center;
+    margin-top: 0%;
+}
+
+.fila3{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+a > .fa:hover{
+    color: lawngreen;
+}
+
+a > .fa{
+   font-size: 80px;
+   cursor: pointer;
+   color: white;
+   margin-top: 13%;
+}
+
+.fila1 > .icono1{
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    background: #F708E5;
+}
+
+.fila1 > .icono2{
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    background: rgb(30, 163, 240);
+}
+
+.fila1 > .icono3{
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+
+.fila2 > .icono4{
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+
+.fila2 > .icono5{
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    background: blue;
+}
+
+.fila2 > .icono6{
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    background: rgb(45, 45, 241);
+}
+
+.fila3 > .icono7{
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    background: rgb(245, 245, 77);
+}
+
+.fila3 > .icono8{
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    background: #8936EE;
+}
+
+.fila3 > .icono9{
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    background: red;
+}

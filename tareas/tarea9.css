@@ -1,0 +1,227 @@
+body{
+    margin-top: 10%;
+}
+.cuadros-de-colores{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.cuadro-1{
+    height: 5%;
+    width: 20%;
+    border: 2px solid rgb(7, 240, 26);
+}
+.cuadro-1 > .fondo-verde{
+    margin-top: -8%;
+    height: 72px;
+    background:  rgb(3, 243, 103);
+}
+#texto1{
+    font-size: 23px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 8%;
+}
+#texto1:hover{
+    color:rgb(20, 20, 180);
+}
+#texto2{
+    font-size: 23px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: -5%;
+}
+#texto2:hover{
+    color: rgb(13, 13, 206);
+}
+
+.info-cuadro-blanco{
+    height: 225px;
+}
+p{
+    font-size: 15px;
+    color: rgb(112, 112, 112);
+    text-align: center;
+}
+.negritas{
+    font-weight: bold;
+}
+.linea-de-puntos{
+    width: 100%;
+    height: 1%;
+    background: rgb(49, 49, 49);
+}
+.boton1{
+    background:  rgb(4, 238, 102);
+    color: #ffffff;
+    border: 2px solid rgb(58, 180, 109);
+    margin: 5% 30%;
+    font-size: 100%;
+    width: 40%;
+    height: 15%;
+}
+.boton1:hover{
+    background: rgb(5, 236, 101);
+    color:  #ffffff;
+}
+.linea-verde{
+    background:   rgb(7, 226, 98);
+    width: 100%;
+    height: 5%;
+    margin-top: -4%;
+}
+.cuadro-2{
+    height: 5%;
+    width: 20%;
+    border: 2px solid  rgb(243, 6, 243);
+}
+.cuadro-2 > .fondo-amarillo{
+    margin-top: -8%;
+    height: 72px;
+    background:  rgb(248, 170, 3);
+}
+#texto3{
+    font-size: 23px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+#texto3:hover{
+    color: black;
+}
+#texto4{
+    font-size: 23px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: -5%;
+}
+#texto4:hover{
+    color: black;
+}
+.info-cuadro-blanco2{
+    height: 225px;
+}
+.boton2{
+    background:   rgb(230, 158, 3);
+    color: #ffffff;
+    border: 2px solid  rgb(250, 172, 4);
+    margin: 5% 30%;
+    font-size: 100%;
+    width: 40%;
+    height: 15%;
+}
+.boton2:hover{
+    background: rgb(250, 171, 2);
+    color: #ffffff;
+}
+.linea-amarilla{
+    background:  rgb(252, 173, 3);
+    width: 100%;
+    height: 5%;
+    margin-top: -4%;
+}
+.cuadro-3{
+    height: 312px;
+    width: 20%;
+    border: 2px solid  rgb(3, 68, 68);
+}
+.cuadro-3 > .fondo-rojo{
+    margin-top: -8%;
+    height: 72px;
+    background:   rgb(94, 6, 3);
+}
+#texto5{
+    font-size: 23px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+#texto5:hover{
+    color: rgb(100, 68, 8);
+}
+#texto6{
+    font-size: 23px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: -5%;
+}
+#texto6:hover{
+    color: rgb(116, 79, 12);
+}
+.info-cuadro-blanco3{
+    height: 225px;
+}
+.boton3{
+    background:    rgb(92, 8, 6);
+    color: #ffffff;
+    border: 2px solid   rgb(95, 8, 5);
+    margin: 5% 30%;
+    font-size: 100%;
+    width: 40%;
+    height: 15%;
+}
+.boton3:hover{
+    background: rgb(92, 7, 4);
+    color: #ffffff;
+}
+.linea-roja{
+    background:   rgb(87, 4, 4);
+    width: 100%;
+    height: 5%;
+    margin-top: -3%;
+}
+.cuadro-4{
+    height: 312px;
+    width: 20%;
+    border: 2px solid rgb(105, 5, 5);
+}
+.cuadro-4 > .fondo-azul{
+    margin-top: -8%;
+    height: 72px;
+    background:   rgb(49, 57, 168);
+}
+#texto7{
+    font-size: 23px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+#texto7:hover{
+    color:rgb(55, 158, 153);
+}
+#texto8{
+    font-size: 23px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: -5%;
+}
+#texto8:hover{
+    color:rgb(47, 141, 136);
+}
+.info-cuadro-blanco4{
+    height: 225px;
+}
+.boton4{
+    background:   rgb(21, 76, 112);
+    color: #ffffff;
+    border: 2px solid  rgb(24, 64, 90);
+    margin: 5% 30%;
+    font-size: 100%;
+    width: 40%;
+    height: 15%;
+}
+.boton4:hover{
+    background:  rgb(30, 126, 190);
+    color:#ffffff;
+}
+.linea-azul{
+    background:   rgb(38, 103, 146);
+    width: 100%;
+    height: 5%;
+    margin-top: -3%;
+}

@@ -1,0 +1,230 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*pseudoelemento*/
+h1::first-letter{
+    font-size: 2em;
+    font-style: italic;
+}
+
+/*se crea una clase flex, donde se van a acomodar dos textos de manera horizontal*/
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.flex > .columna > div{
+    width: 30px;
+    height: 30px;
+    background: cornflowerblue;
+    color: #000000;
+    margin: 10px 0;
+    padding: 20px;
+    font-size: 20px;
+    line-height: 30px; /*acomodar de manera vertical eltexto*/
+    text-align: center;
+}
+
+.flex > .columnareversa{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+}
+
+.flex > .columnareversa > div{
+    width: 30px;
+    height: 30px;
+    background: cornflowerblue;
+    color: #000000;
+    margin: 10px 0;
+    padding: 20px;
+    font-size: 20px;
+    line-height: 30px; /*acomodar de manera vertical eltexto*/
+    text-align: center;
+}
+
+.flexrow{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+ 
+.flexrow > .row{
+    display: flex;
+    flex-direction: row;
+}
+
+.flexrow > .row-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.flexrow > .row > div{
+    width: 30px;
+    height: 30px;
+    background: cornflowerblue;
+    color: #000000;
+    margin: 10px ;
+    padding: 20px;
+    font-size: 20px;
+    line-height: 30px; /*acomodar de manera vertical eltexto*/
+    text-align: center;
+}
+
+.flexrow > .row-reverse > div{
+    width: 30px;
+    height: 30px;
+    background: cornflowerblue;
+    color: #000000;
+    margin: 10px ;
+    padding: 20px;
+    font-size: 20px; 
+    line-height: 30px; /*acomodar de manera vertical eltexto*/
+    text-align: center;
+}
+
+#titulo{
+    text-align: center;
+}
+
+.center{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.center > div{
+    width: 30px;
+    height: 30px;
+    background: cornflowerblue;
+    color: #000000;
+    margin: 10px ;
+    padding: 20px;
+    font-size: 20px; 
+    line-height: 30px; /*acomodar de manera vertical eltexto*/
+    text-align: center;
+}
+
+.flex-start{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+.flex-start > div{
+    width: 30px;
+    height: 30px;
+    background: cornflowerblue;
+    color: #000000;
+    margin: 10px ;
+    padding: 20px;
+    font-size: 20px;
+    line-height: 30px; /*acomodar de manera vertical eltexto*/
+    text-align: center;
+}
+
+#subtitulo3{
+    text-align: right;
+    margin-right: 10px;
+}
+
+.flexend{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+
+.flexend > div{
+    width: 30px;
+    height: 30px;
+    background: cornflowerblue;
+    color: #000000;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    line-height: 30px; /*acomodar de manera vertical eltexto*/
+    text-align: center;
+}
+
+.spacearound{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.spacearound > div{
+    width: 30px;
+    height: 30px;
+    background: cornflowerblue;
+    color: #000000;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    line-height: 30px; /*acomodar de manera vertical eltexto*/
+    text-align: center;
+}
+
+.spacebetween{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.spacebetween > div{
+    width: 30px;
+    height: 30px;
+    background: cornflowerblue;
+    color: #000000;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    line-height: 30px; /*acomodar de manera vertical eltexto*/
+    text-align: center;
+}
+
+.spaceevenly{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.spaceevenly > div{
+    width: 30px;
+    height: 30px;
+    background: cornflowerblue;
+    color: #000000;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    line-height: 30px; /*acomodar de manera vertical eltexto*/
+    text-align: center;
+}
+
+.itemscenter{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.itemscenter > div{
+    width: 30px;
+    height: 30px;
+    background: cornflowerblue;
+    color: #000000;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    line-height: 30px; /*acomodar de manera vertical eltexto*/
+    text-align: center;
+}

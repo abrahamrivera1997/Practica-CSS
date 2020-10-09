@@ -1,0 +1,70 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100vh;
+}
+
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.slider{
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    margin: auto;
+    overflow: hidden; /*se utiliza para esconder un elemento, en este caso estamos ocultando imagenes*/
+}
+
+.slider > ul{
+    display: flex;/*nos acomoda las imagenes de manera horizontal*/
+    padding: 0;
+    width: 400%;
+    animation: carrousel 10s infinite alternate; /*instruccion para darle animacion a las imagenes*/
+}
+
+.slider > ul > li{
+    width: 100%;
+    list-style: none; /*se utiliza para darle estilo a la viñeta, en este caso le indicamos que no tenga ninguna viñeta al listado*/
+}
+
+.slider > ul > li > img{
+    width: 100%;
+}
+/*para utilizar una animacion se abre el @keyframes y se agrega el nombre de la animacion*/
+@keyframes carrousel{
+   0%{
+        margin-left: 0%;
+   }
+
+   20%{
+        margin-left: 0%;
+   }
+
+   25%{
+        margin-left: -100%;
+   }
+
+   45%{
+        margin-left: -100%;
+   }
+
+   50%{
+        margin-left: -200%;
+   }
+
+   70%{
+        margin-left: -200%;
+   }
+
+   75%{
+        margin-left: -300%;
+   }
+
+   100%{
+        margin-left: -300%;
+   }
+}

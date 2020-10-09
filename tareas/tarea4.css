@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+*{
+    margin: 200;
+    padding: 200;
+    
+}
+
+#dat{
+    background: #7E05F7;
+}
+
+header{
+    text-align: center;
+    margin: 2px 2px;
+    width: 80%;
+    margin-left: 7%;
+    height: 20vh;
+    font-family: "Lobster" sans-serif;
+    font-size: 35px;
+    font-style: italic;
+}
+
+span{
+    background: #F75F03;
+}
+
+body{
+    background: url("./../IMG2/cermeza.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;   
+}
+
+#datos{
+    text-align: center;
+    border-style: double;
+    background: #117603;
+    margin: 5px 5px;
+    width: 50%;
+    height: 3.5vh;
+    margin-left: 20%;
+}
+
+#formacion{
+    text-align: center;
+    border-style: double;
+    background: #117603;
+    margin: 5px 5px;
+    width: 50%;
+    height: 3.5vh;
+    margin-left: 20%;
+}
+
+#experiencia{
+    text-align: center;
+    border-style: double;
+    background: #117603;
+    margin: 5px 5px;
+    width: 50%;
+    height: 3.5vh;
+    margin-left: 20%;
+}
+
+.sec1{
+    text-align: center;
+    border-style: dashed;
+    background: #0A886B;
+    margin: 5px 5px;
+    width: 50%;
+    margin-left: 20%;
+}
+
+.sec2{
+    text-align: center;
+    border-style: dashed;
+    background: #0A886B;
+    margin: 5px 5px;
+    width: 50%;
+    margin-left: 20%;
+}
+
+.sec3{
+    text-align: center;
+    border-style: dashed;
+    background: #0A886B;
+    margin: 5px 5px;
+    width: 50%;
+    margin-left: 20%;
+}

@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(202, 120, 120);
+}
+h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 10%;
+    color: rgb(0, 0, 0);
+}
+.fila1{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+.fila1 > a > .fa{
+    font-size: 50px;
+    cursor: pointer;
+}
+a > .fa:hover{
+    color: rgb(51, 19, 167);
+}

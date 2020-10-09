@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: purple;
+}
+
+h1{
+    color: rgb(241, 7, 230);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 2%;
+}
+
+video{
+    width: 50%;
+    height: 50%;
+    margin: 2% 25%;
+}
+
+audio{
+    width: 50%;
+    margin: 2% 25%; 
+}
+
+iframe{
+    margin: 2% 25%;
+}

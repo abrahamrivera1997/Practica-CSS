@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background: url("./../IMG2/proyecto\ x\ por\ mil.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header{   
+    border-style: dashed;
+    border-color: #F70446;
+    text-align: center;
+    background: #05F7CF;
+    margin: 5px 5px;
+    width: 80%;
+    margin-left: 10.5%;
+    height: 20vh;
+    font-family: "Grenze Gotisch" sans-serif;
+    font-size: 40px;
+    font-style: italic;
+}
+
+.sec1{
+    text-align: center;
+    background: #F705F7;
+    margin: 5px 5px;
+    width: 50%;
+    margin-left: 20%;
+}
+
+.sec2{
+    text-align: center;
+    background: #7705F7;
+    margin: 5px 5px;
+    width: 50%;
+    margin-left: 20%;
+}
+
+.sec3{
+    text-align: center;
+    background: #05F747;
+    margin: 5px 5px;
+    width: 50%;
+    margin-left: 20%;
+}
+
+#datos{
+    text-align: center;
+    background: #B5F704;
+    margin: 5px 5px;
+    width: 50%;
+    height: 5vh;
+    margin-left: 20%;
+}
+
+#formacion{
+    text-align: center;
+    background: #B5F704;
+    margin: 5px 5px;
+    width: 50%;
+    height: 5vh;
+    margin-left: 20%;
+}
+
+#experiencia{
+    text-align: center;
+    background: #B5F704;
+    margin: 5px 5px;
+    width: 50%;
+    height: 5vh;
+    margin-left: 20%;
+}

@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+body{
+    background: url("./../IMG2/bob.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+span{
+    background: #000000;
+}
+
+header{
+    text-align: center;
+    border-style: dashed;
+    margin: 2px 2px;
+    width: 80%;
+    margin-left: 7%;
+    height: 20vh;
+    font-family: "Dancing Script" sans-serif;
+    font-size: 35px;
+    font-style: italic;
+}
+
+#datos{
+    font-family: "Pacifico" sans-serif;
+    text-align: center;
+    border-style: double;
+    background: #502FE7;
+    margin: 5px 5px;
+    width: 50%;
+    height: 5vh;
+    margin-left: 20%;
+}
+
+#formacion{
+    font-family: "Pacifico" sans-serif;
+    text-align: center;
+    border-style: double;
+    background: #502FE7;
+    margin: 5px 5px;
+    width: 50%;
+    height: 5vh;
+    margin-left: 20%;
+}
+
+#experiencia{
+    font-family: "Pacifico" sans-serif;
+    text-align: center;
+    border-style: double;
+    background: #502FE7;
+    margin: 5px 5px;
+    width: 50%;
+    height: 5vh;
+    margin-left: 20%;
+}
+
+.sec1{
+    text-align: center;
+    border-style: ridge;
+    background: #F02E28;
+    margin: 5px 5px;
+    width: 50%;
+    margin-left: 20%;
+}
+
+.sec2{
+    text-align: center;
+    border-style: ridge;
+    background: #F02E28;
+    margin: 5px 5px;
+    width: 50%;
+    margin-left: 20%;
+}
+
+.sec3{
+    text-align: center;
+    border-style: ridge;
+    background: #F02E28;
+    margin: 5px 5px;
+    width: 50%;
+    margin-left: 20%;
+}
+
+#curri{
+    color: darkblue;
+}
+
+.name{
+    color: #ECF705 ;
+}
+
+.fecha{
+    color: #ECF705 ;
+}
+
+.lugar{
+    color: #ECF705 ;
+}
+
+.uni{
+    color: #ECF705 ;
+}
+
+.insti{
+    color: #ECF705 ;
+}
+
+.escuela{
+    color: #ECF705 ;
+}
+
+.one{
+    color: #ECF705 ;
+}
+
+.two{
+    color: #ECF705 ;
+}
+
+.tree{
+    color: #ECF705 ;
+}
+
+.bruce{
+    color: #06F218 ;
+}
+
+.mayo{
+    color: #06F218 ;
+}
+
+.city{
+    color: #06F218 ;
+}
+
+.espanta{
+    color: #06F218 ;
+}
+
+.dos{
+    color: #06F218 ;
+}
+
+.primaria{
+    color: #06F218 ;
+}
+
+.enel{
+    color: #06F218 ;
+}
+
+.caza{
+    color: #06F218 ;
+}
+
+.paro{
+    color: #06F218 ;
+}

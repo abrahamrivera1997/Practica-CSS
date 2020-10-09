@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Ranchers&display=swap');
+
+/*este import es para mandar a llamar los estilos de fuente*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background: #cccccc;
+    width: 99%;
+    height: 20vh;
+    border: 3px solid #ffffff;
+    margin: 3px  3px;
+    position: relative;
+}
+h1{
+    position: absolute;
+    top: 40px;
+    left: 50px;
+    font-family: "Ranchers", sans-serif;
+    font-size: 40px;
+    font-style: italic;
+}
+#fuente{
+    color: purple;
+    font-size: 40px;
+    font-family: "Anton", sans-serif, Arial;
+    text-transform: uppercase; /*se utiliza para modificar el texto*/
+    font-style: initial;
+}
+article{
+    background: lightgreen;
+    width: 85%;
+    height: 80vh;
+    margin: 1px 2px;
+    border: 2px solid #ffffff;
+    position: relative;
+    float: left;
+}
+article > div > h2{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    margin: 10px 10px;
+}
+article > div > #subtitulo2{
+    position: absolute;
+    left: 55%;
+    bottom: 92%;
+
+}
+article > div > p{
+    font-size: 17px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    width: 47%;
+    height: 50%;
+    text-align: justify;
+    margin: 10px 10px;
+}
+
+article > div > #parrafo2{
+    position: absolute;
+    left: 50%;
+    bottom: 40%;
+}
+
+article > div > #subtitulo3{
+   position: absolute;
+   top: 40%;
+}
+
+article > div > #parrafo3{
+    position: absolute;
+    top: 50%;
+}
+
+img{
+    margin: 10px 10px;
+    width: 40vw;
+    height: 40vh;
+    position: absolute;
+    left: 50%;
+    top: 44%;
+}
+
+aside{
+    width: 10%;
+    height: 60vh;
+    float: left;
+}
+
+#caja1{
+    border: 2px solid #ffffff;
+    background: lightgreen;
+    width: 140%;
+    height: 20vh;
+}
+
+#caja2{
+    border: 2px solid #ffffff;
+    background: #cccccc;
+    width: 220px;
+    height: 70vh;
+}
+
+footer{
+    clear: both;/*para limpiar la instruccion que se realice en el footer*/
+    width: 85%;
+    height: 10vh;
+    background: lightgreen;
+    margin: 2px 2px;
+    border: 1px solid #ffffff;
+}
+
+h6{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 20px 20px;
+    font-size: italic;
+}

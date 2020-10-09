@@ -1,0 +1,83 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100vh;
+}
+
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+span{
+    background: #000000;
+}
+
+.fondo{
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    margin: auto;
+    overflow: hidden;
+}
+
+.fondo > ul{
+    display: flex;
+    padding: 0;
+    width: 700%;
+    animation: carrousel 20s infinite alternate;
+}
+
+.fondo > ul > li{
+    width: 100%;
+    list-style: none; 
+}
+
+.fondo > ul > li > img{
+    width: 100%;
+    height: 80%;
+}
+
+@keyframes carrousel{
+    10%{
+        margin-left: 0%;
+   }
+
+    20%{
+    margin-left: -100%;
+   }
+
+    30%{
+    margin-left: -180%;
+   }
+
+   40%{
+       margin-left: -240%;
+   }
+
+   50%{
+       margin-left: -300%;
+   }
+
+   60%{
+       margin-left: -360%;
+   }
+
+   70%{
+       margin-left: -420%;
+   }
+
+   80%{
+       margin-left: -480%;
+   }
+
+   90%{
+       margin-left: -540%;
+   }
+
+   100%{
+       margin-left: -600%;
+   }
+}

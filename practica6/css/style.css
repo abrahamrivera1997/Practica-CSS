@@ -1,0 +1,815 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    color: lawngreen;
+    text-align: center;
+}
+
+.titulo{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.titulo > h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: #ee0808;
+    text-transform: capitalize;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+.fila1{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.cuadromorado{
+    width: 30%;
+    height: 20vh;
+    background: #b700ff;
+    border: 5px solid #000000;
+    border-radius: 5%;
+}
+
+.flex-start{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+}
+
+.cuadromorado > .flex-start > .cuadro1{
+    width: 90px;
+    height: 75px;
+    background: orangered;
+    border: 2px solid #000000;
+    margin: 2% 2%;
+    border-radius: 10%;
+}
+
+.cuadromorado > .flex-start > .cuadro2{
+    width: 90px;
+    height: 100px;
+    background: orangered;
+    border: 2px solid #000000;
+    margin: 2% 2%;
+    border-radius: 10%;
+}
+
+.cuadromorado > .flex-start > .cuadro3{
+    width: 90px;
+    height: 40px;
+    background: orangered;
+    border: 2px solid #000000;
+    margin: 2% 2%;
+    border-radius: 10%;
+}
+
+.cuadromorado > .flex-start > .cuadro4{
+    width: 90px;
+    height: 60px;
+    background: orangered;
+    border: 2px solid #000000;
+    margin: 2% 2%;
+    border-radius: 10%;
+}
+
+.cuadromorado > .flex-end{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-end;
+}
+
+.cuadromorado > .flex-end > .cuadro1{
+    width: 23%;
+    height: 75px;
+    background: orangered;
+    border: 2px solid #000000;
+    margin: 10px 5px;
+    border-radius: 10%;
+}
+
+.cuadromorado > .flex-end > .cuadro2{
+    width: 23%;
+    height: 100px;
+    background: orangered;
+    border: 2px solid #000000;
+    margin: 10% 1%;
+    border-radius: 10%;
+}
+
+.cuadromorado > .flex-end > .cuadro3{
+    width: 23%;
+    height: 40px;
+    background: orangered;
+    border: 2px solid #000000;
+    margin: 10% 1%;
+    border-radius: 10%;
+}
+
+.cuadromorado > .flex-end > .cuadro4{
+    width: 23%;
+    height: 60px;
+    background: orangered;
+    border: 2px solid #000000;
+    margin: 10% 1%;
+    border-radius: 10%;
+}
+
+.cuadromorado > .center{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.cuadromorado > .center > .cuadro1{
+    width: 100px;
+    height: 75px;
+    background: orangered;
+    border: 2px solid #000000;
+    margin: 2% 1%;
+    border-radius: 10%;
+}
+
+.cuadromorado > .center > .cuadro2{
+    width: 100px;
+    height: 100px;
+    background: orangered;
+    border: 2px solid #000000;
+    margin: 1% 1%;
+    border-radius: 10%;
+}
+
+.cuadromorado > .center > .cuadro3{
+    width: 100px;
+    height: 40px;
+    background: orangered;
+    border: 2px solid #000000;
+    margin: 1% 1%;
+    border-radius: 10%;
+}
+
+.cuadromorado > .center > .cuadro4{
+    width: 100px;
+    height: 60px;
+    background: orangered;
+    border: 2px solid #000000;
+    margin: 10% 2%;
+    border-radius: 10%;
+}
+
+
+.cuadromorado > .stretch{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: stretch;
+}
+
+.cuadromorado > .stretch > .cuadro1{
+    width: 100px;
+    height: 135px;
+    background: orangered;
+    border: 2px solid #000000;
+    margin: 2% 1%;
+    border-radius: 10%;
+}
+
+.cuadromorado > .stretch > .cuadro2{
+    width: 100px;
+    height: 135px;
+    background: orangered;
+    border: 2px solid #000000;
+    margin: 2% 1%;
+    border-radius: 10%;
+}
+
+.cuadromorado > .stretch > .cuadro3{
+    width: 100px;
+    height: 135px;
+    background: orangered;
+    border: 2px solid #000000;
+    margin: 2% 1%;
+    border-radius: 10%;
+}
+
+.cuadromorado > .stretch > .cuadro4{
+    width: 100px;
+    height: 135px;
+    background: orangered;
+    border: 2px solid #000000;
+    margin: 2% 1%;
+    border-radius: 10%;
+}
+
+.cuadro-morado{
+    width: 70%;
+    height: 25vh;
+    background: #b700ff;
+    border: 5px solid #000000;
+    border-radius: 5%;
+}
+
+.cuadro-morado > .baseline{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: baseline;
+}
+
+.cuadro-morado > .baseline > .cuadro1{
+    width: 20%;
+    height: 100px;
+    background: orangered;
+    border: 2px solid #000000;
+    margin: 1% 1%;
+    border-radius: 10%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.cuadro-morado > .baseline > .cuadro2{
+    width: 15%;
+    height: 50px;
+    background: orangered;
+    border: 2px solid #000000;
+    margin: 1% 1%;
+    border-radius: 10%;
+    text-align: center;
+    font-size: 15px;
+}
+
+.cuadro-morado > .baseline > .cuadro3{
+    width: 35%;
+    height: 150px;
+    background: orangered;
+    border: 2px solid #000000;
+    margin: 2% 1%;
+    border-radius: 10%;
+    text-align: center;
+    font-size: 30px;
+}
+
+.cuadro-morado > .baseline > .cuadro4{
+    width: 20%;
+    height: 100px;
+    background: orangered;
+    border: 2px solid #000000;
+    margin: 2% 1%;
+    border-radius: 10%;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+
+
+.cuadro_morado{
+    width: 30%;
+    height: 30vh;
+    background: #1100ff;
+    border: 5px solid #000000;
+    border-radius: 5%;
+}
+
+#flexstart{
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-start;
+}
+
+.cuadro_morado > #flexstart > .cuadro1{
+    width: 32%;
+    height: 25px;
+    background: rgb(255, 251, 0);
+    border: 2px solid #000000;
+    margin: 2% 1%;
+    border-radius: 10%;
+}
+
+.cuadro_morado > #flexstart > .cuadro2{
+    width: 35%;
+    height: 25px;
+    background: rgb(255, 251, 0);
+    border: 2px solid #000000;
+    margin: 2% 1%;
+    border-radius: 10%;  
+}
+
+.cuadro_morado > #flexstart > .cuadro3{
+    width: 22%;
+    height: 25px;
+    background: rgb(255, 251, 0);
+    border: 2px solid #000000;
+    margin: 2% 1%;
+    border-radius: 10%;
+}
+
+.cuadro_morado > #flexstart > .cuadro4{
+    width: 22%;
+    height: 25px;
+    background: rgb(255, 251, 0);
+    border: 2px solid #000000;
+    margin: 2% 1%;
+    border-radius: 10%;
+}
+
+.cuadro_morado  > #flexstart > .cuadro5{
+    width: 22%;
+    height: 25px;
+    background: rgb(255, 251, 0);
+    border: 2px solid #000000;
+    margin: 2% 1%;
+    border-radius: 10%;
+}
+
+.cuadro_morado > #flexstart > .cuadro6{
+    width: 27%;
+    height: 25px;
+    background: rgb(255, 251, 0);
+    border: 2px solid #000000;
+    margin: 2% 1%;
+    border-radius: 10%;
+}
+
+.cuadro_morado > #flexstart > .cuadro7{
+    width: 17%;
+    height: 25px;
+    background: rgb(255, 251, 0);
+    border: 2px solid #000000;
+    margin: 2% 1%;
+    border-radius: 10%;
+}
+
+.cuadro_morado > #flexstart > .cuadro8{
+    width: 17%;
+    height: 25px;
+    background: rgb(255, 251, 0);
+    border: 2px solid #000000;
+    margin: 2% 1%;
+    border-radius: 10%;
+}
+
+.cuadro_morado > #flexstart > .cuadro9{
+    width: 20%;
+    height: 25px;
+    background:rgb(255, 251, 0);
+    border: 2px solid #000000;
+    margin: 2% 1%;
+    border-radius: 10%;
+}
+
+.cuadro_morado > #flexend{
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-end;
+    margin-top: 22%;
+}
+
+.cuadro_morado > #flexend > .cuadro1{
+    width: 32%;
+    height: 25px;
+    background: rgb(255, 251, 0);
+    border: 2px solid #000000;
+    border-radius: 10%;
+    margin: 2% 1%;
+}
+
+.cuadro_morado > #flexend > .cuadro2{
+    width: 35%;
+    height: 25px;
+    background: rgb(255, 251, 0);
+    border: 2px solid #000000;
+    border-radius: 10%;
+    margin: 2% 1%;
+}
+
+.cuadro_morado > #flexend > .cuadro3{
+    width: 22%;
+    height: 25px;
+    background: rgb(255, 251, 0);
+    border: 2px solid #000000;
+    border-radius: 10%;
+    margin: 2% 1%;
+}
+
+.cuadro_morado > #flexend > .cuadro4{
+    width: 22%;
+    height: 25px;
+    background: rgb(255, 251, 0);
+    border: 2px solid #000000;
+    border-radius: 10%;
+    margin: 2% 1%;
+}
+
+.cuadro_morado > #flexend > .cuadro5{
+    width: 22%;
+    height: 25px;
+    background: rgb(255, 251, 0);
+    border: 2px solid #000000;
+    border-radius: 10%;
+    margin: 2% 1%;
+}
+
+.cuadro_morado > #flexend > .cuadro6{
+    width: 27%;
+    height: 25px;
+    background: rgb(255, 251, 0);
+    border: 2px solid #000000;
+    border-radius: 10%;
+    margin: 2% 1%;
+}
+
+.cuadro_morado > #flexend > .cuadro7{
+    width: 17%;
+    height: 25px;
+    background: rgb(255, 251, 0);
+    border: 2px solid #000000;
+    border-radius: 10%;
+    margin: 2% 1%;
+}
+
+.cuadro_morado > #flexend > .cuadro8{
+    width: 17%;
+    height: 25px;
+    background: rgb(255, 251, 0);
+    border: 2px solid #000000;
+    border-radius: 10%;
+    margin: 2% 1%;
+}
+
+.cuadro_morado > #flexend > .cuadro9{
+    width: 20%;
+    height: 25px;
+    background: rgb(255, 251, 0);
+    border: 2px solid #000000;
+    border-radius: 10%;
+    margin: 2% 1%;
+}
+
+.cuadro_morado > #center{
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    margin-top: 10%;
+}
+
+.cuadro_morado > #center > .cuadro1{
+    width: 32%;
+    height: 25px;
+    background: rgb(255, 251, 0);
+    border: 2px solid #000000;
+    margin: 2% 1%;
+    border-radius: 10%;
+}
+
+.cuadro_morado > #center > .cuadro2{
+    width: 35%;
+    height: 25px;
+    background: rgb(255, 251, 0);
+    border: 2px solid #000000;
+    margin: 2% 1%;
+    border-radius: 10%;
+}
+
+.cuadro_morado > #center > .cuadro3{
+    width: 22%;
+    height: 25px;
+    background: rgb(255, 251, 0);
+    border: 2px solid #000000;
+    margin: 2% 1%;
+    border-radius: 10%;
+}
+
+.cuadro_morado > #center > .cuadro4{
+    width: 22%;
+    height: 25px;
+    background: rgb(255, 251, 0);
+    border: 2px solid #000000;
+    margin: 2% 1%;
+    border-radius: 10%;
+}
+
+.cuadro_morado > #center > .cuadro5{
+    width: 22%;
+    height: 25px;
+    background: rgb(255, 251, 0);
+    border: 2px solid #000000;
+    margin: 2% 1%;
+    border-radius: 10%;
+}
+
+.cuadro_morado > #center > .cuadro6{
+    width: 27%;
+    height: 25px;
+    background: rgb(255, 251, 0);
+    border: 2px solid #000000;
+    margin: 2% 1%;
+    border-radius: 10%;
+}
+
+.cuadro_morado > #center > .cuadro7{
+    width: 17%;
+    height: 25px;
+    background: rgb(255, 251, 0);
+    border: 2px solid #000000;
+    margin: 2% 1%;
+    border-radius: 10%;
+}
+
+.cuadro_morado > #center > .cuadro8{
+    width: 17%;
+    height: 25px;
+    background: rgb(255, 251, 0);
+    border: 2px solid #000000;
+    margin: 2% 1%;
+    border-radius: 10%;
+}
+
+.cuadro_morado > #center > .cuadro9{
+    width: 20%;
+    height: 25px;
+    background: rgb(255, 251, 0);
+    border: 2px solid #000000;
+    margin: 2% 1%;
+    border-radius: 10%;
+}
+
+.cuadro_morado > #stretch{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: stretch;
+}
+
+.cuadro_morado > #stretch > .cuadro1{
+    width: 32%;
+    height: 52px;
+    background: rgb(255, 251, 0);
+    border: 2px solid #000000;
+    margin: 2% 1%;
+    border-radius: 10%;
+}
+
+.cuadro_morado > #stretch > .cuadro2{
+    width: 35%;
+    height: 52px;
+    background: rgb(255, 251, 0);
+    border: 2px solid #000000;
+    margin: 2% 1%;
+    border-radius: 10%;
+}
+
+.cuadro_morado > #stretch > .cuadro3{
+    width: 22%;
+    height: 52px;
+    background: rgb(255, 251, 0);
+    border: 2px solid #000000;
+    margin: 2% 1%;
+    border-radius: 10%;
+}
+
+.cuadro_morado > #stretch > .cuadro4{
+    width: 22%;
+    height: 52px;
+    background: rgb(255, 251, 0);
+    border: 2px solid #000000;
+    margin: 2% 1%;
+    border-radius: 10%;
+}
+
+.cuadro_morado > #stretch > .cuadro5{
+    width: 22%;
+    height: 52px;
+    background: rgb(255, 251, 0);
+    border: 2px solid #000000;
+    margin: 2% 1%;
+    border-radius: 10%;
+}
+
+.cuadro_morado > #stretch > .cuadro6{
+    width: 27%;
+    height: 52px;
+    background: rgb(255, 251, 0);
+    border: 2px solid #000000;
+    margin: 2% 1%;
+    border-radius: 10%;
+}
+
+.cuadro_morado > #stretch > .cuadro7{
+    width: 17%;
+    height: 52px;
+    background: rgb(255, 251, 0);
+    border: 2px solid #000000;
+    margin: 2% 1%;
+    border-radius: 10%;
+}
+
+.cuadro_morado > #stretch > .cuadro8{
+    width: 17%;
+    height: 52px;
+    background: rgb(255, 251, 0);
+    border: 2px solid #000000;
+    margin: 2% 1%;
+    border-radius: 10%;
+}
+
+.cuadro_morado > #stretch > .cuadro9{
+    width: 20%;
+    height: 52px;
+    background: rgb(255, 251, 0);
+    border: 2px solid #000000;
+    margin: 2% 1%;
+    border-radius: 10%;
+}
+
+.cuadro_morado > #space-between{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: space-between;
+}
+
+.cuadro_morado > #space-between > .cuadro1{
+    width: 32%;
+    height: 30px;
+    background: rgb(255, 251, 0);
+    border: 2px solid #000000;
+    margin: 2% 1%;
+    border-radius: 10%;
+}
+
+.cuadro_morado > #space-between > .cuadro2{
+    width: 35%;
+    height: 30px;
+    background: rgb(255, 251, 0);
+    border: 2px solid #000000;
+    margin: 2% 1%;
+    border-radius: 10%;
+}
+
+.cuadro_morado > #space-between > .cuadro3{
+    width: 22%;
+    height: 30px;
+    background: rgb(255, 251, 0);
+    border: 2px solid #000000;
+    margin: 2% 1%;
+    border-radius: 10%;
+}
+
+.cuadro_morado > #space-between > .cuadro4{
+    width: 22%;
+    height: 30px;
+    background: rgb(255, 251, 0);
+    border: 2px solid #000000;
+    margin: 2% 1%;
+    border-radius: 10%;
+    margin-top: 50px;
+}
+
+.cuadro_morado > #space-between > .cuadro5{
+    width: 22%;
+    height: 30px;
+    background: rgb(255, 251, 0);
+    border: 2px solid #000000;
+    margin: 2% 1%;
+    border-radius: 10%;
+    margin-top: 50px;
+}
+
+.cuadro_morado > #space-between > .cuadro6{
+    width: 27%;
+    height: 30px;
+    background: rgb(255, 251, 0);
+    border: 2px solid #000000;
+    margin: 2% 1%;
+    border-radius: 10%;
+    margin-top: 50px;
+}
+
+.cuadro_morado > #space-between > .cuadro7{
+    width: 17%;
+    height: 30px;
+    background: rgb(255, 251, 0);
+    border: 2px solid #000000;
+    margin: 2% 1%;
+    border-radius: 10%;
+    margin-top: 50px;
+}
+
+.cuadro_morado > #space-between > .cuadro8{
+    width: 17%;
+    height: 30px;
+    background: rgb(255, 251, 0);
+    border: 2px solid #000000;
+    margin: 2% 1%;
+    border-radius: 10%;
+    margin-top: 60px;
+}
+
+.cuadro_morado > #space-between > .cuadro9{
+    width: 20%;
+    height: 30px;
+    background: rgb(255, 251, 0);
+    border: 2px solid #000000;
+    margin: 2% 1%;
+    border-radius: 10%;
+    margin-top: 60px;
+}
+
+.cuadro_morado > #space-around{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: space-around;
+}
+
+.cuadro_morado > #space-around > .cuadro1{
+    width: 32%;
+    height: 30px;
+    background: rgb(255, 251, 0);
+    border: 2px solid #000000;
+    margin: 2% 1%;
+    border-radius: 10%;
+    margin-top: 20px;
+}
+
+.cuadro_morado > #space-around > .cuadro2{
+    width: 35%;
+    height: 30px;
+    background: rgb(255, 251, 0);
+    border: 2px solid #000000;
+    margin: 2% 1%;
+    border-radius: 10%;
+    margin-top: 20px;
+}
+
+.cuadro_morado > #space-around > .cuadro3{
+    width: 22%;
+    height: 30px;
+    background: rgb(255, 251, 0);
+    border: 2px solid #000000;
+    margin: 2% 1%;
+    border-radius: 10%;
+    margin-top: 20px;
+}
+
+.cuadro_morado > #space-around > .cuadro4{
+    width: 22%;
+    height: 30px;
+    background: rgb(255, 251, 0);
+    border: 2px solid #000000;
+    margin: 2% 1%;
+    border-radius: 10%;
+    margin-top: 45px;
+}
+
+.cuadro_morado > #space-around > .cuadro5{
+    width: 22%;
+    height: 30px;
+    background: rgb(255, 251, 0);
+    border: 2px solid #000000;
+    margin: 2% 1%;
+    border-radius: 10%;
+    margin-top: 45px;
+}
+
+.cuadro_morado > #space-around > .cuadro6{
+    width: 27%;
+    height: 30px;
+    background: rgb(255, 251, 0);
+    border: 2px solid #000000;
+    margin: 2% 1%;
+    border-radius: 10%;
+    margin-top: 45px;
+}
+
+.cuadro_morado > #space-around > .cuadro7{
+    width: 17%;
+    height: 30px;
+    background: rgb(255, 251, 0);
+    border: 2px solid #000000;
+    margin: 2% 1%;
+    border-radius: 10%;
+    margin-top: 45px;
+}
+
+.cuadro_morado > #space-around > .cuadro8{
+    width: 17%;
+    height: 30px;
+    background: rgb(255, 251, 0);
+    border: 2px solid #000000;
+    margin: 2% 1%;
+    border-radius: 10%;
+    margin-top: 53px;
+}
+
+.cuadro_morado > #space-around > .cuadro9{
+    width: 20%;
+    height: 30px;
+    background: rgb(255, 251, 0);
+    border: 2px solid #000000;
+    margin: 2% 1%;
+    border-radius: 10%;
+    margin-top: 53px;
+}
